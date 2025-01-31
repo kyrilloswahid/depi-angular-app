@@ -91,6 +91,7 @@ cd depi-angular-app
    ```bash
    docker-compose up --build -d
 ```
+
 2. **Access the App**:
 - Frontend at http://localhost:8080
 - Backend at http://localhost:3000
@@ -109,7 +110,8 @@ docker-compose down
    docker build -t kyrilloswahid/my-backend:1.0 ./backend
    docker build -t kyrilloswahid/my-frontend:1.0 ./front-end
 ```
-2. **Log in to Docker**:
+
+2.  **Log in to Docker**:
    ```bash
    docker login
 ```
