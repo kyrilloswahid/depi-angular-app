@@ -89,8 +89,7 @@ cd depi-angular-app
 
 1. **Build and start** containers:
    ```bash
-   docker-compose up --build -d
-```
+   docker-compose up --build -d```
 
 2. **Access the App**:
 - Frontend at http://localhost:8080
@@ -101,6 +100,7 @@ cd depi-angular-app
 ```bash
 docker-compose down
 ```
+
 ---
 
 ### 4.4 Building and Pushing Docker Images
@@ -108,8 +108,7 @@ docker-compose down
 1. **Build the images**:
    ```bash
    docker build -t kyrilloswahid/my-backend:1.0 ./backend
-   docker build -t kyrilloswahid/my-frontend:1.0 ./front-end
-```
+   docker build -t kyrilloswahid/my-frontend:1.0 ./front-end```
 
 2.  **Log in to Docker**:
    ```bash
