@@ -65,6 +65,9 @@ depi-angular-app/
 ├── k8s-mysql.yaml
 ├── docker-compose.yaml
 └── README.md
+
+---
+
 ## 4. Installation & Usage
 
 ### 4.1 Prerequisites
