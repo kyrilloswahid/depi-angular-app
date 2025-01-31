@@ -16,31 +16,12 @@ The goal of this project is to demonstrate how to containerize and orchestrate a
 
 ## 2. Architecture
 
-Below is a high-level look at the **3-tier** architecture:
-
-
-                       [ Client / Browser ]
-                                 |
-                                 v
-                    [ NGINX Ingress Controller ]
-                                 |
-                          ( Service: frontend )
-                                 |
-                             [ Frontend ]
-                                 |
-                           ( Service: backend )
-                                 |
-                            [ Backend ]
-                                 |
-                           ( Service: mysql )
-                                 |
-                             [ MySQL DB ]
-                      (PersistentVolume/PVC)
-![Alt text](path/to/image)
-
 1. **Frontend (Angular)**: Deployed as a container, built via a multi-stage Dockerfile.  
 2. **Backend (Node.js)**: Simple Node.js server connecting to MySQL.  
 3. **MySQL**: Deployed with a PersistentVolume (PV) and PersistentVolumeClaim (PVC) for data storage in Kubernetes.
+
+Below is a high-level look at the **3-tier** architecture:
+![Alt text](diagram.png)
 
 ---
 
