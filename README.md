@@ -36,7 +36,7 @@ Below is a high-level look at the **3-tier** architecture:
                                  |
                              [ MySQL DB ]
                       (PersistentVolume/PVC)
-
+![Alt text](path/to/image)
 
 1. **Frontend (Angular)**: Deployed as a container, built via a multi-stage Dockerfile.  
 2. **Backend (Node.js)**: Simple Node.js server connecting to MySQL.  
