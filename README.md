@@ -82,22 +82,23 @@ depi-angular-app/
 ### 4.2 Clone the Repository
 ```bash
 git clone https://github.com/kyrilloswahid/depi-angular-app.git
-cd depi-angular-app```
+cd depi-angular-app
+```
 
 ### 4.3 Local Testing with Docker Compose
 
 1. **Build and start** containers:
    ```bash
-   docker-compose up --build -d```
-
+   docker-compose up --build -d
+```
 2. **Access the App**:
 - Frontend at http://localhost:8080
 - Backend at http://localhost:3000
 - MySQL on port 3306
 3. **Stop the containers**:
 ```bash
-docker-compose down```
-
+docker-compose down
+```
 ---
 
 ### 4.4 Building and Pushing Docker Images
