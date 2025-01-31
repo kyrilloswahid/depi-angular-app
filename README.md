@@ -92,14 +92,14 @@ cd depi-angular-app
    docker-compose up --build -d```
 
 2. **Access the App**:
-- Frontend at http://localhost:8080
-- Backend at http://localhost:3000
-- MySQL on port 3306
+  - Frontend at http://localhost:8080
+  - Backend at http://localhost:3000
+  - MySQL on port 3306
 
 3. **Stop the containers**:
-```bash
-docker-compose down
-```
+  ```bash
+  docker-compose down
+  ```
 
 ---
 
@@ -113,13 +113,13 @@ docker-compose down
 2.  **Log in to Docker**:
    ```bash
    docker login
-```
+   ```
 
 3. **Push to registry**:
-```bash
-docker push kyrilloswahid/my-backend:1.0
-docker push kyrilloswahid/my-frontend:1.0
-```
+  ```bash
+  docker push kyrilloswahid/my-backend:1.0
+  docker push kyrilloswahid/my-frontend:1.0
+  ```
 
 ---
 
