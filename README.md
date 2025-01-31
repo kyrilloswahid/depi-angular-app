@@ -111,15 +111,15 @@ cd depi-angular-app
    docker build -t kyrilloswahid/my-frontend:1.0 ./front-end```
 
 2.  **Log in to Docker**:
-   ```bash
-   docker login
-   ```
+     ```bash
+     docker login
+     ```
 
 3. **Push to registry**:
-  ```bash
-  docker push kyrilloswahid/my-backend:1.0
-  docker push kyrilloswahid/my-frontend:1.0
-  ```
+    ```bash
+    docker push kyrilloswahid/my-backend:1.0
+    docker push kyrilloswahid/my-frontend:1.0
+    ```
 
 ---
 
