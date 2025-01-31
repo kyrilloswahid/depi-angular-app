@@ -126,19 +126,19 @@ cd depi-angular-app
 ### 4.5 Kubernetes Deployment
 
 1. **Deploy MySQL (including PV & PVC), Backend and Frontend**:
-```bash
-kubectl apply -f mysql-deployment.yml
-kubectl apply -f backend-deployment.yml
-kubectl apply -f frontend-deployment.yml
-```
+  ```bash
+  kubectl apply -f mysql-deployment.yml
+  kubectl apply -f backend-deployment.yml
+  kubectl apply -f frontend-deployment.yml
+  ```
 2. **Set Up Ingress**:
-```bash
-kubectl apply -f ingress.yaml
-```
+  ```bash
+  kubectl apply -f ingress.yaml
+  ```
 3. **Verify**:
-```bash
-kubectl get pods
-kubectl get services
-kubectl get ingress
-```
+  ```bash
+  kubectl get pods
+  kubectl get services
+  kubectl get ingress
+  ```
 ---
