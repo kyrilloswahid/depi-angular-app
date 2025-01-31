@@ -65,6 +65,7 @@ depi-angular-app/
 ├── k8s-mysql.yaml
 ├── docker-compose.yaml
 └── README.md
+```
 
 ---
 
