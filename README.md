@@ -95,6 +95,7 @@ cd depi-angular-app
 - Frontend at http://localhost:8080
 - Backend at http://localhost:3000
 - MySQL on port 3306
+
 3. **Stop the containers**:
 ```bash
 docker-compose down
@@ -106,10 +107,13 @@ docker-compose down
 1. **Build the images**:
    ```bash
    docker build -t kyrilloswahid/my-backend:1.0 ./backend
-   docker build -t kyrilloswahid/my-frontend:1.0 ./front-end```
+   docker build -t kyrilloswahid/my-frontend:1.0 ./front-end
+```
 2. **Log in to Docker**:
-```bash
-docker login```
+   ```bash
+   docker login
+```
+
 3. **Push to registry**:
 ```bash
 docker push kyrilloswahid/my-backend:1.0
